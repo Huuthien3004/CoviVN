@@ -32,9 +32,9 @@ const index = () => {
                 <h4 className="card-header">User Links</h4>
                 <ul className="list-group">
                     <li className="list-group-item">
-                        <Link className="nav-link" to={`/profile/${_id}`}>
+                        <div className="nav-link" to={`/profile/${_id}`}>
                             Update Profile
-                        </Link>
+                        </div>
                     </li>
                 </ul>
             </div>

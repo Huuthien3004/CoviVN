@@ -141,11 +141,15 @@ export default function MailchimpForm() {
   `;
   const CardContainer = styled.div`
   width: 1100px;
-  height: 500px;
+  height: 600px;
   display: flex;
   border-radius: 26px;
   position: relative;
-  border: 2px solid #fff;
-  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid black;
+  background-color:#D6D5CB;
   backdrop-filter: blur(10px);
+  
+  @media screen and (max-width: 100px) {
+        padding-top: 32px;
+  }
   `;
