@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import News from '../components/functions/News';
+import News from '../components/functions/News/App';
 import Sidebar from '../components/layout/Sidebar';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';

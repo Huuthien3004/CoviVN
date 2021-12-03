@@ -16,7 +16,7 @@ const generateOptions = (data, label) => {
     );
     return {
         chart: {
-            type: "area",
+            type: "line",
             height: 400,
             style: {
                 fontFamily: "Roboto",
