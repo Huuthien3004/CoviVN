@@ -17,7 +17,6 @@ const NewsPage = () => {
     <Sidebar isOpen={isOpen} toggle={toggle}/>
     <Navbar toggle={toggle} />
     <News />
-
     <Footer />
     </>
   );

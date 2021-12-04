@@ -31,7 +31,6 @@ const useStyles = makeStyles({
 
 function HighlightCard({ title, total, today, type }) {
     const styles = useStyles({ type });
-    // console.log("HighlightCard: ", {title,count,type});
     return (
         <Card className={styles.wrapper}>
             <CardContent>
